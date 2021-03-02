@@ -3,7 +3,7 @@
 Reading EBNF grammars is not easy. Seeing it on a diagram makes things easier.
 http://bottlecaps.de/rr/ui is an excellent tool: it can scrape EBNF grammars from W3C specs, generates either a single XHTML with embedded SVG, or a zip with many PNGs, cross-links the definitions and usages.
 
-[[./ebnf2tdv.pl]]: convert ebnf to a list of node-node connections, for visualizing eg with d3 (INCOMPLETE)
+- INCOMPLETE: [[./ebnf2tdv.pl]]: convert ebnf to a list of node-node connections, for visualizing eg with d3
 
 * SPARQL 1.1 Query Language
 I use this quite often while writing SPARQL.
