@@ -26,6 +26,16 @@ Preview:
 
 [[http://1.bp.blogspot.com/_5Jqup-kC5TY/SVCGV19T6EI/AAAAAAAAALA/7UW3FznkRHM/s1600/SPARQL.png]]
 
+* SHACLC
+SHACL Compact grammar
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/shaclc-grammar.xhtml][shaclc-grammar.xhtml]]: Cross-linked diagrams, one per production (73 total)
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/shaclc-grammar.ebnf][shaclc-grammar.ebnf]]: EBNF rules converted from the original ANTRL grammar
+- Extracted from: https://w3c.github.io/shacl/shacl-compact-syntax/ 
+
+Preview:
+
+[[./SHACLC-diagram-preview.png]]
+
 * XSPARQL
 XSPARQL is a melding of XQuery and SPARQL. 
 Its syntax is pretty large, so the diagrams help. 
