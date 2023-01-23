@@ -26,6 +26,18 @@ Preview:
 
 [[http://1.bp.blogspot.com/_5Jqup-kC5TY/SVCGV19T6EI/AAAAAAAAALA/7UW3FznkRHM/s1600/SPARQL.png]]
 
+
+* SPARQL-star Railroad Diagram
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql-star-grammar.xhtml][sparql-star-grammar.xhtml]]: Cross-linked diagrams, one per production (173 total). 
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql-star-grammar.ebnf][sparql-star-grammar.ebnf]]: EBNF rules extracted from the spec
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql-star-grammar.txt][sparql-star-grammar.txt]]: same thing but with production numbers
+- extracted from: https://www.w3.org/2021/12/rdf-star.html#sparql-star-ebnf
+- version: 2021-12-17
+
+Preview:
+
+[[./SPARQL-star-diagram-preview.png]]
+
 * SHACLC
 SHACL Compact grammar
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/shaclc-grammar.xhtml][shaclc-grammar.xhtml]]: Cross-linked diagrams, one per production (73 total)
