@@ -42,7 +42,7 @@ Preview:
 ** SPARQL 1.2 Railroad Diagram
 SPARQL 1.2 is the long-awaited update of SPARQL with SPARQL-star (reified triples and annotations).
 It's still a work in progress.
-- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.xhtml][sparql12-grammar.xhtml]]: Cross-linked diagrams, one per production (173 total). 
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.xhtml][sparql12-grammar.xhtml]]: Cross-linked diagrams, one per production (190 total). 
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.ebnf][sparql12-grammar.ebnf]]: EBNF rules extracted from the spec
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.txt][sparql12-grammar.txt]]: same thing but with production numbers
 - extracted from: https://www.w3.org/TR/sparql12-query/
