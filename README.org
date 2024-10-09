@@ -63,6 +63,10 @@ Preview:
 
 [[./SHACLC-diagram-preview.png]]
 
+IMPORTANT:
+The SHACL CG is currently working on extending the SHACLC grammar with more features.
+You can see diagrams for 4 candidate grammars at https://github.com/VladimirAlexiev/shacl/tree/shaclc-grammars/shacl-compact-syntax/grammar#candidate-shacl-c-grammars
+
 * XSPARQL
 XSPARQL is a melding of XQuery and SPARQL. 
 Its syntax is pretty large, so the diagrams help. 
