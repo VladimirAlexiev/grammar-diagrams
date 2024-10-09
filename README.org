@@ -33,7 +33,7 @@ It's still a work in progress.
 - created on: Oct 9, 2024
 Preview:
 
-[[./SPARQL-diagram-preview.png]]
+[[./SPARQL-1.2-diagram-preview.png]]
 
 ** SPARQL-star Railroad Diagram
 This is an older incarnation of SPARQL-star. You can ignore it.
