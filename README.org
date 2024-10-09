@@ -1,33 +1,42 @@
 #+TITLE: Grammar Railroad Diagrams
 
 Reading EBNF grammars is not easy. Seeing it on a diagram makes things easier.
-http://bottlecaps.de/rr/ui is an excellent tool: it can scrape EBNF grammars from W3C specs, generates either a single XHTML with embedded SVG, or a zip with many PNGs, cross-links the definitions and usages.
+https://rr.red-dove.com/ui is an excellent tool: it can scrape EBNF grammars from W3C specs, generates either a single XHTML with embedded SVG, or a zip with many PNGs, cross-links the definitions and usages.
 
 - INCOMPLETE: [[./ebnf2tdv.pl]]: convert ebnf to a list of node-node connections, for visualizing eg with d3
 
-* SPARQL 1.1 Query Language
+* SPARQL Query and Update
 I use this quite often while writing SPARQL.
- A bit hard to understand: use this for reference, but not for learning SPARQL.
+It is bit hard to understand: use this for reference, but not for learning SPARQL.
 
-** SPARQL Railroad Diagram
+** SPARQL 1.1 Railroad Diagram
+SPARQL 1.1 is the current version of SPARQL. 
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql11-grammar.xhtml][sparql11-grammar.xhtml]]: Cross-linked diagrams, one per production (173 total). 
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql11-grammar.ebnf][sparql11-grammar.ebnf]]: EBNF rules extracted from the spec
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql11-grammar.txt][sparql11-grammar.txt]]: same thing but with production numbers
 - extracted from: http://www.w3.org/TR/sparql11-query/
 - version: http://www.w3.org/TR/2013/REC-sparql11-query-20130321/
-- created on: Tue Apr 2, 2013, 08:59 (UTC+03)
+- created on: Apr 2, 2013
+
 Preview:
 
 [[./SPARQL-diagram-preview.png]]
 
-** Chunked SPARQL Diagram
-Here's a [[http://ontologicalengineering.blogspot.com/2008/12/sparql-railroad-diagram-from-hell.html][chunked diagram]], which however is partial: [[http://stackoverflow.com/questions/15758282/bigger-granularity-railroad-diagram-generator][Discussion]] whether there's a chunked generator.
+** SPARQL 1.2 Railroad Diagram
+SPARQL 1.2 is the long-awaited update of SPARQL with SPARQL-star (reified triples and annotations).
+It's still a work in progress.
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.xhtml][sparql12-grammar.xhtml]]: Cross-linked diagrams, one per production (173 total). 
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.ebnf][sparql12-grammar.ebnf]]: EBNF rules extracted from the spec
+- [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql12-grammar.txt][sparql12-grammar.txt]]: same thing but with production numbers
+- extracted from: https://www.w3.org/TR/sparql12-query/
+- version: https://www.w3.org/TR/2024/WD-sparql12-query-20240921/
+- created on: Oct 9, 2024
 Preview:
 
-[[http://1.bp.blogspot.com/_5Jqup-kC5TY/SVCGV19T6EI/AAAAAAAAALA/7UW3FznkRHM/s1600/SPARQL.png]]
+[[./SPARQL-diagram-preview.png]]
 
-
-* SPARQL-star Railroad Diagram
+** SPARQL-star Railroad Diagram
+This is an older incarnation of SPARQL-star. You can ignore it.
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql-star-grammar.xhtml][sparql-star-grammar.xhtml]]: Cross-linked diagrams, one per production (173 total). 
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql-star-grammar.ebnf][sparql-star-grammar.ebnf]]: EBNF rules extracted from the spec
 - [[http://rawgit2.com/VladimirAlexiev/grammar-diagrams/master/sparql-star-grammar.txt][sparql-star-grammar.txt]]: same thing but with production numbers
@@ -37,6 +46,12 @@ Preview:
 Preview:
 
 [[./SPARQL-star-diagram-preview.png]]
+
+** Chunked SPARQL Diagram
+Here's a [[http://ontologicalengineering.blogspot.com/2008/12/sparql-railroad-diagram-from-hell.html][chunked diagram]], which however is partial: [[http://stackoverflow.com/questions/15758282/bigger-granularity-railroad-diagram-generator][Discussion]] whether there's a chunked generator.
+Preview:
+
+[[http://1.bp.blogspot.com/_5Jqup-kC5TY/SVCGV19T6EI/AAAAAAAAALA/7UW3FznkRHM/s1600/SPARQL.png]]
 
 * SHACLC
 SHACL Compact grammar
