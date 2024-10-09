@@ -1,9 +1,26 @@
 #+TITLE: Grammar Railroad Diagrams
 
+* Intro
 Reading EBNF grammars is not easy. Seeing it on a diagram makes things easier.
 https://rr.red-dove.com/ui is an excellent tool: it can scrape EBNF grammars from W3C specs, generates either a single XHTML with embedded SVG, or a zip with many PNGs, cross-links the definitions and usages.
 
 - INCOMPLETE: [[./ebnf2tdv.pl]]: convert ebnf to a list of node-node connections, for visualizing eg with d3
+
+** Table of Contents                                          :TOC:noexport:
+:PROPERTIES:
+:TOC:      :include all
+:END:
+
+:CONTENTS:
+- [[#intro][Intro]]
+- [[#sparql-query-and-update][SPARQL Query and Update]]
+  - [[#sparql-11-railroad-diagram][SPARQL 1.1 Railroad Diagram]]
+  - [[#sparql-12-railroad-diagram][SPARQL 1.2 Railroad Diagram]]
+  - [[#sparql-star-railroad-diagram][SPARQL-star Railroad Diagram]]
+  - [[#chunked-sparql-diagram][Chunked SPARQL Diagram]]
+- [[#shaclc][SHACLC]]
+- [[#xsparql][XSPARQL]]
+:END:
 
 * SPARQL Query and Update
 I use this quite often while writing SPARQL.
