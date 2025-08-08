@@ -90,7 +90,7 @@ You can see diagrams for 4 candidate grammars at https://github.com/VladimirAlex
 
 * SHACL Rules
 Proposed SHACL Rules grammar for SHACL Compact by Andy Seaborne:
-https://raw.githack.com/afs/jena-rules/main/Grammar-SHACL/rules-grammar.html (from [[https://gist.github.com/afs/1b5d7f24daf013894d76a062ee78bb9f?permalink_comment_id=5592407][this gist]])
+https://raw.githack.com/w3c/data-shapes/initial-infer-rules/shacl12-inf-rules/index.html#shapes-rules-grammar
 
 - [[https://raw.githack.com/VladimirAlexiev/grammar-diagrams/master/shacl-rules-grammar.xhtml][shacl-rules-grammar.xhtml]]
 
